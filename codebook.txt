@@ -1,0 +1,525 @@
+Code book
+
+## Variables
+
+subject 1..30 (unique number assigned to each person in the experiment)
+activityname - {WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING}
+
+The below variables contain the mean of the relevant variables.
+tbodyaccmeanx
+tbodyaccmeany
+tbodyaccmeanz
+tbodyaccstdx 
+tbodyaccstdy 
+tbodyaccstdz 
+tbodyaccmadx 
+tbodyaccmady 
+tbodyaccmadz 
+tbodyaccmaxx 
+tbodyaccmaxy 
+tbodyaccmaxz 
+tbodyaccminx 
+tbodyaccminy 
+tbodyaccminz 
+tbodyaccsma
+tbodyaccenergyx
+tbodyaccenergyy
+tbodyaccenergyz
+tbodyacciqrx 
+tbodyacciqry 
+tbodyacciqrz 
+tbodyaccentropyx 
+tbodyaccentropyy 
+tbodyaccentropyz 
+tbodyaccarcoeffx
+tbodyaccarcoeffx
+tbodyaccarcoeffx
+tbodyaccarcoeffx
+tbodyaccarcoeffy
+tbodyaccarcoeffy
+tbodyaccarcoeffy
+tbodyaccarcoeffy
+tbodyaccarcoeffz
+tbodyaccarcoeffz
+tbodyaccarcoeffz
+tbodyaccarcoeffz
+tbodyacccorrelationxy
+tbodyacccorrelationxz
+tbodyacccorrelationyz
+tgravityaccmeanx 
+tgravityaccmeany 
+tgravityaccmeanz 
+tgravityaccstdx
+tgravityaccstdy
+tgravityaccstdz
+tgravityaccmadx
+tgravityaccmady
+tgravityaccmadz
+tgravityaccmaxx
+tgravityaccmaxy
+tgravityaccmaxz
+tgravityaccminx
+tgravityaccminy
+tgravityaccminz
+tgravityaccsma 
+tgravityaccenergyx 
+tgravityaccenergyy 
+tgravityaccenergyz 
+tgravityacciqrx
+tgravityacciqry
+tgravityacciqrz
+tgravityaccentropyx
+tgravityaccentropyy
+tgravityaccentropyz
+tgravityaccarcoeffx 
+tgravityaccarcoeffx 
+tgravityaccarcoeffx 
+tgravityaccarcoeffx 
+tgravityaccarcoeffy 
+tgravityaccarcoeffy 
+tgravityaccarcoeffy 
+tgravityaccarcoeffy 
+tgravityaccarcoeffz 
+tgravityaccarcoeffz 
+tgravityaccarcoeffz 
+tgravityaccarcoeffz 
+tgravityacccorrelationxy 
+tgravityacccorrelationxz 
+tgravityacccorrelationyz 
+tbodyaccjerkmeanx
+tbodyaccjerkmeany
+tbodyaccjerkmeanz
+tbodyaccjerkstdx 
+tbodyaccjerkstdy 
+tbodyaccjerkstdz 
+tbodyaccjerkmadx 
+tbodyaccjerkmady 
+tbodyaccjerkmadz 
+tbodyaccjerkmaxx 
+tbodyaccjerkmaxy 
+tbodyaccjerkmaxz 
+tbodyaccjerkminx 
+tbodyaccjerkminy 
+tbodyaccjerkminz 
+tbodyaccjerksma
+tbodyaccjerkenergyx
+ tbodyaccjerkenergyy
+ tbodyaccjerkenergyz
+ tbodyaccjerkiqrx 
+ tbodyaccjerkiqry 
+ tbodyaccjerkiqrz 
+ tbodyaccjerkentropyx 
+ tbodyaccjerkentropyy 
+ tbodyaccjerkentropyz 
+ tbodyaccjerkarcoeffx
+ tbodyaccjerkarcoeffx
+ tbodyaccjerkarcoeffx
+ tbodyaccjerkarcoeffx
+ tbodyaccjerkarcoeffy
+ tbodyaccjerkarcoeffy
+ tbodyaccjerkarcoeffy
+ tbodyaccjerkarcoeffy
+ tbodyaccjerkarcoeffz
+ tbodyaccjerkarcoeffz
+ tbodyaccjerkarcoeffz
+ tbodyaccjerkarcoeffz
+ tbodyaccjerkcorrelationxy
+ tbodyaccjerkcorrelationxz
+ tbodyaccjerkcorrelationyz
+ tbodygyromeanx 
+ tbodygyromeany 
+ tbodygyromeanz 
+ tbodygyrostdx
+ tbodygyrostdy
+ tbodygyrostdz
+ tbodygyromadx
+ tbodygyromady
+ tbodygyromadz
+ tbodygyromaxx
+ tbodygyromaxy
+ tbodygyromaxz
+ tbodygyrominx
+ tbodygyrominy
+ tbodygyrominz
+ tbodygyrosma 
+ tbodygyroenergyx 
+ tbodygyroenergyy 
+ tbodygyroenergyz 
+ tbodygyroiqrx
+ tbodygyroiqry
+ tbodygyroiqrz
+ tbodygyroentropyx
+ tbodygyroentropyy
+ tbodygyroentropyz
+ tbodygyroarcoeffx 
+ tbodygyroarcoeffx 
+ tbodygyroarcoeffx 
+ tbodygyroarcoeffx 
+ tbodygyroarcoeffy 
+ tbodygyroarcoeffy 
+ tbodygyroarcoeffy 
+ tbodygyroarcoeffy 
+ tbodygyroarcoeffz 
+ tbodygyroarcoeffz 
+ tbodygyroarcoeffz 
+ tbodygyroarcoeffz 
+ tbodygyrocorrelationxy 
+ tbodygyrocorrelationxz 
+ tbodygyrocorrelationyz 
+ tbodygyrojerkmeanx 
+ tbodygyrojerkmeany 
+ tbodygyrojerkmeanz 
+ tbodygyrojerkstdx
+ tbodygyrojerkstdy
+ tbodygyrojerkstdz
+ tbodygyrojerkmadx
+ tbodygyrojerkmady
+ tbodygyrojerkmadz
+ tbodygyrojerkmaxx
+ tbodygyrojerkmaxy
+ tbodygyrojerkmaxz
+ tbodygyrojerkminx
+ tbodygyrojerkminy
+ tbodygyrojerkminz
+ tbodygyrojerksma 
+ tbodygyrojerkenergyx 
+ tbodygyrojerkenergyy 
+ tbodygyrojerkenergyz 
+ tbodygyrojerkiqrx
+ tbodygyrojerkiqry
+ tbodygyrojerkiqrz
+ tbodygyrojerkentropyx
+ tbodygyrojerkentropyy
+ tbodygyrojerkentropyz
+ tbodygyrojerkarcoeffx 
+ tbodygyrojerkarcoeffx 
+ tbodygyrojerkarcoeffx 
+ tbodygyrojerkarcoeffx 
+ tbodygyrojerkarcoeffy 
+ tbodygyrojerkarcoeffy 
+ tbodygyrojerkarcoeffy 
+ tbodygyrojerkarcoeffy 
+ tbodygyrojerkarcoeffz 
+ tbodygyrojerkarcoeffz 
+ tbodygyrojerkarcoeffz 
+ tbodygyrojerkarcoeffz 
+ tbodygyrojerkcorrelationxy 
+ tbodygyrojerkcorrelationxz 
+ tbodygyrojerkcorrelationyz 
+ tbodyaccmagmean
+ tbodyaccmagstd 
+ tbodyaccmagmad 
+ tbodyaccmagmax 
+ tbodyaccmagmin 
+ tbodyaccmagsma 
+ tbodyaccmagenergy
+ tbodyaccmagiqr 
+ tbodyaccmagentropy 
+ tbodyaccmagarcoeff
+ tbodyaccmagarcoeff
+ tbodyaccmagarcoeff
+ tbodyaccmagarcoeff
+ tgravityaccmagmean 
+ tgravityaccmagstd
+ tgravityaccmagmad
+ tgravityaccmagmax
+ tgravityaccmagmin
+ tgravityaccmagsma
+ tgravityaccmagenergy 
+ tgravityaccmagiqr
+ tgravityaccmagentropy
+ tgravityaccmagarcoeff 
+ tgravityaccmagarcoeff 
+ tgravityaccmagarcoeff 
+ tgravityaccmagarcoeff 
+ tbodyaccjerkmagmean
+ tbodyaccjerkmagstd 
+ tbodyaccjerkmagmad 
+ tbodyaccjerkmagmax 
+ tbodyaccjerkmagmin 
+ tbodyaccjerkmagsma 
+ tbodyaccjerkmagenergy
+ tbodyaccjerkmagiqr 
+ tbodyaccjerkmagentropy 
+ tbodyaccjerkmagarcoeff
+ tbodyaccjerkmagarcoeff
+ tbodyaccjerkmagarcoeff
+ tbodyaccjerkmagarcoeff
+ tbodygyromagmean 
+ tbodygyromagstd
+ tbodygyromagmad
+ tbodygyromagmax
+ tbodygyromagmin
+ tbodygyromagsma
+ tbodygyromagenergy 
+ tbodygyromagiqr
+ tbodygyromagentropy
+ tbodygyromagarcoeff 
+ tbodygyromagarcoeff 
+ tbodygyromagarcoeff 
+ tbodygyromagarcoeff 
+ tbodygyrojerkmagmean 
+ tbodygyrojerkmagstd
+ tbodygyrojerkmagmad
+ tbodygyrojerkmagmax
+ tbodygyrojerkmagmin
+ tbodygyrojerkmagsma
+ tbodygyrojerkmagenergy 
+ tbodygyrojerkmagiqr
+ tbodygyrojerkmagentropy
+ tbodygyrojerkmagarcoeff 
+ tbodygyrojerkmagarcoeff 
+ tbodygyrojerkmagarcoeff 
+ tbodygyrojerkmagarcoeff 
+ fbodyaccmeanx
+ fbodyaccmeany
+ fbodyaccmeanz
+ fbodyaccstdx 
+ fbodyaccstdy 
+ fbodyaccstdz 
+ fbodyaccmadx 
+ fbodyaccmady 
+ fbodyaccmadz 
+ fbodyaccmaxx 
+ fbodyaccmaxy 
+ fbodyaccmaxz 
+ fbodyaccminx 
+ fbodyaccminy 
+ fbodyaccminz 
+ fbodyaccsma
+ fbodyaccenergyx
+ fbodyaccenergyy
+ fbodyaccenergyz
+ fbodyacciqrx 
+ fbodyacciqry 
+ fbodyacciqrz 
+ fbodyaccentropyx 
+ fbodyaccentropyy 
+ fbodyaccentropyz 
+ fbodyaccmaxindsx 
+ fbodyaccmaxindsy 
+ fbodyaccmaxindsz 
+ fbodyaccmeanfreqx
+ fbodyaccmeanfreqy
+ fbodyaccmeanfreqz
+ fbodyaccskewnessx
+ fbodyacckurtosisx
+ fbodyaccskewnessy
+ fbodyacckurtosisy
+ fbodyaccskewnessz
+ fbodyacckurtosisz
+ fbodyaccbandsenergy
+ fbodyaccbandsenergy 
+ fbodyaccbandsenergy
+ fbodyaccbandsenergy
+ fbodyaccbandsenergy
+ fbodyaccbandsenergy
+ fbodyaccbandsenergy
+ fbodyaccbandsenergy
+ fbodyaccbandsenergy 
+ fbodyaccbandsenergy
+ fbodyaccbandsenergy
+ fbodyaccbandsenergy
+ fbodyaccbandsenergy 
+ fbodyaccbandsenergy
+ fbodyaccjerkmeanx
+ fbodyaccjerkmeany
+ fbodyaccjerkmeanz
+ fbodyaccjerkstdx 
+ fbodyaccjerkstdy 
+ fbodyaccjerkstdz 
+ fbodyaccjerkmadx 
+ fbodyaccjerkmady 
+ fbodyaccjerkmadz 
+ fbodyaccjerkmaxx 
+ fbodyaccjerkmaxy 
+ fbodyaccjerkmaxz 
+ fbodyaccjerkminx 
+ fbodyaccjerkminy 
+ fbodyaccjerkminz 
+ fbodyaccjerksma
+ fbodyaccjerkenergyx
+ fbodyaccjerkenergyy
+ fbodyaccjerkenergyz
+ fbodyaccjerkiqrx 
+ fbodyaccjerkiqry 
+ fbodyaccjerkiqrz 
+ fbodyaccjerkentropyx 
+ fbodyaccjerkentropyy 
+ fbodyaccjerkentropyz 
+ fbodyaccjerkmaxindsx 
+ fbodyaccjerkmaxindsy 
+ fbodyaccjerkmaxindsz 
+ fbodyaccjerkmeanfreqx
+ fbodyaccjerkmeanfreqy
+ fbodyaccjerkmeanfreqz
+ fbodyaccjerkskewnessx
+ fbodyaccjerkkurtosisx
+ fbodyaccjerkskewnessy
+ fbodyaccjerkkurtosisy
+ fbodyaccjerkskewnessz
+ fbodyaccjerkkurtosisz
+ fbodyaccjerkbandsenergy
+ fbodyaccjerkbandsenergy 
+ fbodyaccjerkbandsenergy
+ fbodyaccjerkbandsenergy
+ fbodyaccjerkbandsenergy
+ fbodyaccjerkbandsenergy
+ fbodyaccjerkbandsenergy
+ fbodyaccjerkbandsenergy
+ fbodyaccjerkbandsenergy 
+ fbodyaccjerkbandsenergy
+ fbodyaccjerkbandsenergy
+ fbodyaccjerkbandsenergy
+ fbodyaccjerkbandsenergy 
+ fbodyaccjerkbandsenergy
+ fbodygyromeanx 
+ fbodygyromeany 
+ fbodygyromeanz 
+ fbodygyrostdx
+ fbodygyrostdy
+ fbodygyrostdz
+ fbodygyromadx
+ fbodygyromady
+ fbodygyromadz
+ fbodygyromaxx
+ fbodygyromaxy
+ fbodygyromaxz
+ fbodygyrominx
+ fbodygyrominy
+ fbodygyrominz
+ fbodygyrosma 
+ fbodygyroenergyx 
+ fbodygyroenergyy 
+ fbodygyroenergyz 
+ fbodygyroiqrx
+ fbodygyroiqry
+ fbodygyroiqrz
+ fbodygyroentropyx
+ fbodygyroentropyy
+ fbodygyroentropyz
+ fbodygyromaxindsx
+ fbodygyromaxindsy
+ fbodygyromaxindsz
+ fbodygyromeanfreqx 
+ fbodygyromeanfreqy 
+ fbodygyromeanfreqz 
+ fbodygyroskewnessx 
+ fbodygyrokurtosisx 
+ fbodygyroskewnessy 
+ fbodygyrokurtosisy 
+ fbodygyroskewnessz 
+ fbodygyrokurtosisz 
+ fbodygyrobandsenergy 
+ fbodygyrobandsenergy
+ fbodygyrobandsenergy 
+ fbodygyrobandsenergy 
+ fbodygyrobandsenergy 
+ fbodygyrobandsenergy 
+ fbodygyrobandsenergy 
+ fbodygyrobandsenergy 
+ fbodygyrobandsenergy
+ fbodygyrobandsenergy 
+ fbodygyrobandsenergy 
+ fbodygyrobandsenergy 
+ fbodygyrobandsenergy
+ fbodygyrobandsenergy 
+ fbodyaccmagmean
+ fbodyaccmagstd 
+ fbodyaccmagmad 
+ fbodyaccmagmax 
+ fbodyaccmagmin 
+ fbodyaccmagsma 
+ fbodyaccmagenergy
+ fbodyaccmagiqr 
+ fbodyaccmagentropy 
+ fbodyaccmagmaxinds 
+ fbodyaccmagmeanfreq
+ fbodyaccmagskewness
+ fbodyaccmagkurtosis
+ fbodybodyaccjerkmagmean
+ fbodybodyaccjerkmagstd 
+ fbodybodyaccjerkmagmad 
+ fbodybodyaccjerkmagmax 
+ fbodybodyaccjerkmagmin 
+ fbodybodyaccjerkmagsma 
+ fbodybodyaccjerkmagenergy
+ fbodybodyaccjerkmagiqr 
+ fbodybodyaccjerkmagentropy 
+ fbodybodyaccjerkmagmaxinds 
+ fbodybodyaccjerkmagmeanfreq
+ fbodybodyaccjerkmagskewness
+ fbodybodyaccjerkmagkurtosis
+ fbodybodygyromagmean 
+ fbodybodygyromagstd
+ fbodybodygyromagmad
+ fbodybodygyromagmax
+ fbodybodygyromagmin
+ fbodybodygyromagsma
+ fbodybodygyromagenergy 
+ fbodybodygyromagiqr
+ fbodybodygyromagentropy
+ fbodybodygyromagmaxinds
+ fbodybodygyromagmeanfreq 
+ fbodybodygyromagskewness 
+ fbodybodygyromagkurtosis 
+ fbodybodygyrojerkmagmean 
+ fbodybodygyrojerkmagstd
+ fbodybodygyrojerkmagmad
+ fbodybodygyrojerkmagmax
+ fbodybodygyrojerkmagmin
+ fbodybodygyrojerkmagsma
+ fbodybodygyrojerkmagenergy 
+ fbodybodygyrojerkmagiqr
+ fbodybodygyrojerkmagentropy
+ fbodybodygyrojerkmagmaxinds
+ fbodybodygyrojerkmagmeanfreq 
+ fbodybodygyrojerkmagskewness 
+ fbodybodygyrojerkmagkurtosis 
+ angletbodyaccmeangravity 
+ angletbodyaccjerkmeangravitymean 
+ angletbodygyromeangravitymean
+ angletbodygyrojerkmeangravitymean
+ anglexgravitymean
+ angleygravitymean
+ anglezgravitymean
+
+ 
+ 
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
+mad(): Median absolute deviation 
+max(): Largest value in array
+min(): Smallest value in array
+sma(): Signal magnitude area
+energy(): Energy measure. Sum of the squares divided by the number of values. 
+iqr(): Interquartile range 
+entropy(): Signal entropy
+arCoeff(): Autorregresion coefficients with Burg order equal to 4
+correlation(): correlation coefficient between two signals
+maxInds(): index of the frequency component with largest magnitude
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+skewness(): skewness of the frequency domain signal 
+kurtosis(): kurtosis of the frequency domain signal 
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+angle(): Angle between to vectors.
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean 
+ 
+The set of variables that were estimated from these signals are: 
+
+mean: Mean value
+
+std: Standard deviation
+
+## Transformation
+
+All the values are means, aggregated over 30 subjects and 6 activities, hence the resulting dataset is 180 rows by 68 columns.
